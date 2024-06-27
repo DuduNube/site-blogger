@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "DMSans";
+    src: url(/src/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+    font-family: "DMSans";
+    margin-top: 1%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 139, 6);
+}
+
+#titulo {
+    font-size: xx-large;
+    text-align: center;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-shadow: black 1px 1px 1px;
+}
+
+.card {
+    justify-content: center;
+    border-radius: 3%;
+    width: 14em;
+    height: 22em;
+    margin: 5% 0%;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 10px 10px 0px 1px black;
+}
+
+#status {
+    padding: 3%;
+    border-radius: 10%;
+    background-color: darkorange;
+    color: white;
+    width: min-content;
+    font-size: small;
+    text-align: center;
+}
+
+#data-publ {
+    opacity: 60%;
+    text-align: start;
+    font-size: smaller;
+    margin: 0;
+}
+
+#img-tema {
+    width: 100%;
+    border-radius: 10%;
+    border: solid black 3px;
+}
+
+.curso {
+    margin: 3% 0%;
+}
+
+#tema{
+    font-size: large;
+    margin-bottom: 2%;
+}
+
+#descricao {
+    text-align: justify;
+    font-size: small;
+}
+
+.dev-info {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10%;
+}
+
+#dev-foto {
+    width: 15%;
+    height: auto;
+    border-radius: 50%;
+    border:solid black 2px;
+}
+
+#dev-nome {
+    margin-top: 5%;
+    margin-left: 2%;
+}
